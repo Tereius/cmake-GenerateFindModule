@@ -38,7 +38,7 @@ include(CMakeParseArguments)
 set(MODULES_OUT_DIR "${CMAKE_CURRENT_BINARY_DIR}/generated_modules")
 set(CMAKE_MODULE_PATH "${MODULES_OUT_DIR};${CMAKE_MODULE_PATH}")
 
-#generate_find_package(
+#generate_find_module(
 #   <VAR>
 #   <package>
 #   LIB_NAMES name1 [name2 ...]

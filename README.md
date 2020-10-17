@@ -59,7 +59,7 @@ install(FILES "${CMAKE_CURRENT_BINARY_DIR}/FooConfig.cmake" DESTINATION lib/cmak
 ## Use:
 
 ```
-generate_find_package(
+generate_find_module(
    <VAR>
    <package>
    LIB_NAMES name1 [name2 ...]
